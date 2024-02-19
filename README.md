@@ -1,7 +1,7 @@
 # <h1 align="center">Huddle Landing Page | Frontend Mentor</h1>
 
 <p align="center">
-  <img src="./img/result-mobile.jpg" alt="Reultado do desafio">
+  <img src="./result-mobile.jpg" alt="Reultado do desafio">
 </p>
 
 
