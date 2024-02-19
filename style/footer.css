@@ -1,0 +1,170 @@
+.footer{
+    margin-top: 5.5em;
+    height: 155px;
+    background-image: url("../img/bg-footer-top-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-container{
+    display: flex;
+    background-color: #01262f;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.5em 1.5em;
+    color: var(--color-white);
+    gap: 4.5em;
+}
+
+.footer-subs{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer-text{
+    font-size: 14px;
+    line-height: 1.6;
+    width: 300px;
+    padding-right: 1em;
+}
+
+.footer-inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: center;
+}
+
+.footer-input{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 0.5em;
+}
+
+.footer-input::placeholder{
+    background-image: url("../img/icons8-nova-mensagem-48.png");
+    background-repeat: no-repeat;
+    background-position: 0.2em;
+    font-size: 18px;
+    padding-left: 3.5em;
+}
+
+#subs:invalid{
+    border: 1px solid red;
+}
+
+input[type="email"]:invalid + .alerta{
+    display: block; 
+}
+
+.alerta {
+    width: 100%;
+    padding: 0.1em;
+    display: none;
+    text-align: left;
+    color: red;
+    border: none;
+    font-size: 14px;
+}
+
+.footer-button{
+    margin-top: 0.8em;
+    background-color: var(--background-color-decoration);
+    width: 150px;
+    padding: 0.7em 0;
+    text-decoration: none;
+    font-size: 15px;
+    color: var(--color-white);
+    font-weight: 600;
+    border-radius: 0.2em;
+}
+
+.footer-button:hover{
+    background-color: #ff8ed6;
+}
+
+.company-description{
+    display: flex;
+    flex-direction: column;
+    gap: 2.6em;
+}
+
+.footer-text{
+    font-size: 14px;
+    line-height: 1.6;
+    width: 300px;
+    padding-top: 1em;
+}
+
+.contact-descrption-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}
+
+.list-contact{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    list-style: none;
+}
+
+.list-text{
+    font-size: 14px;
+}
+
+.icons-sites{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2em;
+}
+
+.icon-img-footer{
+    width: 30px;
+}
+
+
+@media screen and (min-width: 768px){
+    .footer-container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding: 2.5em 2.5em;
+    }
+    .footer-inputs{
+        flex-direction: row;
+        gap: 2em;
+    }
+    .footer-inputs{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .footer{
+        background-image: url("../img/bg-footer-top-desktop.svg");
+        height: 200px;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding: 4em;
+    }
+    .footer-inputs{
+        width: 100%
+    }
+    .footer-button{
+        padding: 0.7em 1.4em;
+    }
+    
+}

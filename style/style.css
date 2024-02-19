@@ -1,0 +1,33 @@
+/*Importação de fontes*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*Importando css*/
+@import url("./header.css");
+@import url("./container.css");
+@import url("./banner.css");
+@import url("./banner_ilus.css");
+@import url("./footer.css");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-family-header: "Poppins", sans-serif;
+    --font-family-primary: "Open Sans", sans-serif;
+    --background-color-decoration: #fd53c0;
+    --color-primary: #020202;
+    --color-secondary: #253941;
+    --color-white: #f9ffff;
+    --color-text-banner: #878788;
+    --color-title-banner: #002029;
+    --background-color: #ffffff;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: var(--font-family-primary);
+}
+
